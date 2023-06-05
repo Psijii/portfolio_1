@@ -172,6 +172,21 @@ a {
   font-size: 24px;
 }
 
+.photo-info {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 14px;
+}
+
+.photo-info p {
+  margin: 5px 0;
+  color: var(--light);
+}
+.photo-info a {
+  font-weight: bold;
+}
+
 /*portfolio section */
 
 .image-links {
