@@ -1,16 +1,9 @@
-const hamburger = document.querySelector('.hamburger');
-const menu = document.querySelector('.menu');
+document.addEventListener("DOMContentLoaded", function () {
+  const navToggle = document.querySelector(".nav-toggle");
+  const navMenu = document.querySelector(".nav-menu");
 
-hamburger.addEventListener('click', () => {
-  menu.classList.toggle('show');
+  navToggle.addEventListener("click", function () {
+    navMenu.classList.toggle("responsive");
+  });
 });
 
-
-window.addEventListener('scroll', function() {
-  const navbar = document.querySelector('nav');
-  if (window.pageYOffset > 0) {
-    navbar.classList.add('scroll');
-  } else {
-    navbar.classList.remove('scroll');
-  }
-});
