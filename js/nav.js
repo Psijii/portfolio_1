@@ -6,7 +6,7 @@ hamburger.addEventListener('click', () => {
 });
 
 window.addEventListener('scroll', function() {
-  const navbar = document.querySelector('.navbar');
+  const navbar = document.querySelector('nav');
   if (window.pageYOffset > 0) {
     navbar.classList.add('scroll');
   } else {
