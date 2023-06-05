@@ -41,6 +41,12 @@ i {
   color: var(--dark);
 }
 
+i:hover {
+  color: var(--bluegreen);
+  transition: 0.3s ease-in-out;
+
+}
+
 #portfolio {
   margin-top: 10px;
   text-align: center;
@@ -184,7 +190,7 @@ a {
   color: var(--light);
 }
 .photo-info a {
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 /*portfolio section */
@@ -268,6 +274,7 @@ a {
   object-fit: cover;
   border: 2px solid var(--soft);
   box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  
 }
 
 @media (max-width: 768px) {
@@ -318,3 +325,11 @@ a {
 .about-blurb p {
   font-size: 16px;
 }
+
+
+footer {
+  background-color: var(--light);
+  text-align: center;
+}
+
+
