@@ -92,6 +92,8 @@ span {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  max-width: 100%;
 }
 
 .intro-blurb {
@@ -247,6 +249,11 @@ span {
 
 /*portfolio section */
 
+.portfolio-flex {
+  display: flex;
+  max-width: 100%;
+}
+
 .image-links {
   display: flex;
   justify-content: center;
@@ -254,11 +261,12 @@ span {
   flex-wrap: wrap;
 }
 
+
 .image-link {
   position: relative;
   flex: 0 0 350px;
-  height: 500px;
-  width: 500px;
+  height: 300px;
+  width: 300px;
   margin: 10px;
   overflow: hidden;
 }
@@ -301,7 +309,11 @@ span {
     opacity: 1;
     border-radius: 15px;
   }
-
+  .portfolio-flex {
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+  }
   .hover-effect h3,
   .hover-effect p {
     display: block;
@@ -309,7 +321,7 @@ span {
 
   .image-link {
     position: relative;
-    flex: 0 0 300px;
+    flex: 0 0 110px;
   }
 }
 
