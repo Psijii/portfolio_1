@@ -10,6 +10,7 @@ body {
   font-size: 1.125rem;
   font-weight: 400;
   line-height: 1.55;
+  overflow-x: hidden;
 }
 
 :root {
@@ -69,13 +70,10 @@ img {
   color: var(--light);
 }
 
-
 #portfolio h2 {
   font-size: xx-large;
   color: var(--light);
 }
-
-
 
 span {
   font-family: "calendas_plus";
@@ -113,8 +111,6 @@ span {
   flex-direction: column;
   color: var(--light);
 }
-
-
 
 /*nav bar */
 
@@ -251,7 +247,9 @@ span {
 
 .portfolio-flex {
   display: flex;
-  max-width: 100%;
+  width: 100%;
+  margin: auto;
+  margin-left: 10%;
 }
 
 .image-links {
@@ -325,6 +323,10 @@ span {
     position: relative;
     flex: 0 0 110px;
   }
+
+  .portfolio-flex {
+    margin-left: 0;
+  }
 }
 
 /*about section */
@@ -358,6 +360,9 @@ span {
     width: 250px;
     height: 250px;
   }
+  .about-blurb {
+    width: 350px;
+  }
 }
 
 .about-details {
@@ -389,6 +394,7 @@ span {
 .about-blurb {
   text-align: center;
   width: 768px;
+  margin: auto;
 }
 
 .about-blurb h2 {
@@ -398,6 +404,12 @@ span {
 
 .about-blurb p {
   font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .about-blurb {
+    max-width: 350px;
+  }
 }
 
 footer {
