@@ -15,6 +15,7 @@ body {
 
 :root {
   --bluegreen: #466b73;
+  --bluegreensat: #3b6f7a;
   --lightturq: #81a6a2;
   --light: #fcf5e3;
   --soft: #bf826b;
@@ -78,7 +79,7 @@ img {
 span {
   font-family: "calendas_plus";
   padding: 4px;
-  border-radius: 2px;
+  border-radius: 4px;
   font-weight: bold;
 }
 
@@ -120,11 +121,11 @@ span {
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem 1rem;
-  height: 24px;
+  height: 28px;
   z-index: 9999;
   top: 0;
   position: fixed;
-  background-color: var(--bluegreen);
+  background-color: var(--bluegreensat);
   width: 100%;
 }
 
@@ -139,6 +140,7 @@ span {
   margin: 0;
   padding: 0;
   z-index: 9999;
+  background-color: transparent;
 }
 
 .nav-menu li a {
@@ -209,7 +211,7 @@ span {
   background-size: cover;
   background-position: center;
   height: 100vh;
-  filter: saturate(1.2); 
+  filter: saturate(1.4); 
 }
 
 
