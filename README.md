@@ -26,8 +26,7 @@ I've been coding hoepages since the good old days of GeoCities, worked a few yea
 <a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg" width="36" height="36" alt="Figma" /></a>
 </p>
 
-The three projects I've been working on:
-Has been built with:
+The three projects I've been working on, has been built with:
 * Figma for design all projects.
 * HTML & CSS for SCI MU and gameHUB.
 * * gameHUB is HTML & CSS Course Assignment.
@@ -46,6 +45,9 @@ Has been built with:
 ## Callie Furmint:
 * Repository: https://github.com/Noroff-FEU-Assignments/project-exam-1-Psijii
 * Live site: https://hilarious-torrone-459941.netlify.app/
+
+# I'm still learning.
+These are all my school projects, and it has been many years sinsce I worked with this. So there is a lot to get started with again!
                     
  ### Socials
 <p align="left">
