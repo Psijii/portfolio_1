@@ -11,7 +11,9 @@ I've been coding hoepages since the good old days of GeoCities, worked a few yea
 *   ✉️  You can contact me at [siw@techlilja.io](mailto:siw@techlilja.io)
 *   🚀  I'm currently working on [Studies, studies, and more studies](http://uib.no)
 *   🧠  I'm learning Python, JavaScript, TypeScript, SCSS
-*   🤝  I'm open to collaborating on shopping-, fashion- and travel-blogs### Skills 
+*   🤝  I'm open to collaborating on shopping-, fashion- and travel-blogs
+
+### Skills 
 <p align="left">
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a>
 <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a>
