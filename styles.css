@@ -441,6 +441,10 @@ footer li {
   margin: 0 10px;
 }
 
+footer i {
+  color: var(--light);
+}
+
 footer a {
   color: var(--light);
   text-decoration: none;
