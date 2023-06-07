@@ -322,11 +322,12 @@ span {
   .portfolio-flex {
     display: flex;
     flex-direction: row;
-    width: 350px;
+    width: 360px;
   }
   .hover-effect h3,
   .hover-effect p {
     display: block;
+    font-size: 14px;
   }
 
   .image-link {
