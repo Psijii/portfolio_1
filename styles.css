@@ -257,7 +257,8 @@ span {
 .image-link {
   position: relative;
   flex: 0 0 calc(33.33% - 15px);
-  height: 435px;
+  height: 600px;
+  width: 600px;
   margin: 0;
   overflow: hidden;
 }
@@ -298,24 +299,29 @@ span {
 }
 
 @media (max-width: 768px) {
-  .hover-effect {
-    opacity: 1;
-    border-radius: 15px;
+    .hover-effect {
+      opacity: 0.9;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 15px;
   }
+  
   .portfolio-flex {
-    display: flex;
-    flex-direction: row;
-    width: 360px;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
   }
+
+  .image-link {
+    flex: 0 0 100%;
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
   .hover-effect h3,
   .hover-effect p {
     display: block;
     font-size: 14px;
-  }
-
-  .image-link {
-    position: relative;
-    flex: 0 0 110px;
   }
 }
 
