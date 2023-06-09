@@ -1,9 +1,8 @@
-body,
-ul {
+body, ul {
   margin: 0;
   padding: 0;
   background-color: var(--bluegreen);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Figtree", Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -32,10 +31,7 @@ body {
     url("calendas_plus-webfont.svg#calendas_plusregular") format("svg");
 }
 
-h1,
-h2,
-h3,
-h4 {
+h1, h2, h3, h4 {
   font-family: "calendas_plusregular";
 }
 
@@ -65,17 +61,6 @@ img {
   border-radius: 15px;
 }
 
-#portfolio {
-  margin-top: 10px;
-  text-align: center;
-  color: var(--light);
-}
-
-#portfolio h2 {
-  font-size: xx-large;
-  color: var(--light);
-}
-
 span {
   font-family: "calendas_plus";
   padding: 4px;
@@ -83,7 +68,7 @@ span {
   font-weight: bold;
 }
 
-/*intro section */
+/* Intro section */
 
 #intro {
   background-color: var(--lightturq);
@@ -104,7 +89,6 @@ span {
   color: var(--light);
 }
 
-
 .intro-blurb {
   text-align: center;
   margin: auto;
@@ -114,7 +98,7 @@ span {
   color: var(--light);
 }
 
-/*nav bar */
+/* Nav bar */
 
 .navbar {
   display: flex;
@@ -177,6 +161,7 @@ span {
     cursor: pointer;
     margin-right: 25px;
   }
+
   .nav-toggle i {
     color: var(--light);
   }
@@ -204,17 +189,15 @@ span {
   }
 }
 
-/*hero section */
+/* Hero section */
 .hero-image {
   position: relative;
   background-image: url("images/hero.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
-  filter: saturate(1.4); 
+  filter: saturate(1.4);
 }
-
-
 
 .hero-text {
   position: absolute;
@@ -229,13 +212,11 @@ span {
   font-size: 40px;
   margin-bottom: 20px;
   font-weight: bolder;
-
 }
 
 .hero-text h2 {
   font-size: 24px;
   font-weight: bolder;
-
 }
 
 .photo-info {
@@ -249,33 +230,35 @@ span {
   margin: 5px 0;
   color: var(--light);
 }
+
 .photo-info a {
   font-weight: bolder;
 }
 
-/*portfolio section */
+/* Portfolio section */
+#portfolio {
+  text-align: center;
+  color: var(--light);
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
 
 .portfolio-flex {
   display: flex;
-  width: 100%;
-  margin: auto;
-  margin-left: 10%;
-}
-
-.image-links {
-  display: flex;
   justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 15px;
+  max-width: 1000px;
+  margin: auto;
+  margin-bottom: 20px;
 }
-
 
 .image-link {
   position: relative;
-  flex: 0 0 350px;
+  flex: 0 0 calc(33.33% - 15px);
   height: 435px;
-  width: 300px;
-  margin: 10px;
+  margin: 0;
   overflow: hidden;
 }
 
@@ -334,13 +317,9 @@ span {
     position: relative;
     flex: 0 0 110px;
   }
-
-  .portfolio-flex {
-    margin-left: 0;
-  }
 }
 
-/*about section */
+/* About section */
 #about {
   padding: 10px;
   background-color: var(--light);
@@ -449,6 +428,3 @@ footer a {
   color: var(--light);
   text-decoration: none;
 }
-
-
-
