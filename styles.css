@@ -1,17 +1,4 @@
 /* Global styles */
-body, ul {
-  margin: 0;
-  padding: 0;
-  background-color: var(--bluegreen);
-}
-
-body {
-  font-size: 1.125rem;
-  font-weight: 400;
-  line-height: 1.55;
-  overflow-x: hidden;
-}
-
 :root {
   --bluegreen: #466b73;
   --bluegreensat: #3b6f7a;
@@ -19,6 +6,16 @@ body {
   --light: #fcf5e3;
   --soft: #bf826b;
   --dark: #260b0b;
+}
+
+body {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.55;
+  overflow-x: hidden;
+  background-color: var(--bluegreen);
+  margin: 0;
+  padding: 0;
 }
 
 /* Fonts */
@@ -35,6 +32,7 @@ body {
 /* Headings */
 h1, h2, h3, h4 {
   font-family: "calendas_plusregular";
+  text-align: center;
 }
 
 /* Paragraphs */
@@ -52,11 +50,6 @@ a {
 a:hover {
   color: whitesmoke;
   transition: 0.3s ease-in-out;
-}
-
-/* Divs */
-div {
-  padding: 5px;
 }
 
 /* Icons */
@@ -96,10 +89,7 @@ span {
   background-size: cover;
   display: flex;
   max-width: 100%;
-}
-
-.intro-blurb {
-  border-radius: 15px;
+  padding: 15px;
 }
 
 #intro span {
@@ -108,7 +98,6 @@ span {
 }
 
 .intro-blurb {
-  text-align: center;
   margin: auto;
   width: 750px;
   display: flex;
@@ -252,6 +241,12 @@ span {
   font-weight: bolder;
 }
 
+@media (max-width: 768px) {
+  .hero-art {
+    visibility: hidden;
+  }
+}
+
 /* Portfolio section */
 #portfolio {
   text-align: center;
@@ -301,6 +296,7 @@ span {
   align-items: center;
   text-align: center;
   border-radius: 15px;
+  padding: 0;
 }
 
 .hover-effect h3,
@@ -316,16 +312,29 @@ span {
 }
 
 @media (max-width: 768px) {
-    .hover-effect {
-      opacity: 0.9;
-      background-color: rgba(0, 0, 0, 0.6);
-      border-radius: 15px;
+  .hover-effect {
+    opacity: 0.9;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box; /* Add this property */
   }
-  
+
+  .hover-effect h3,
+  .hover-effect p {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
   .portfolio-flex {
     flex-direction: column;
     align-items: center;
-    padding: 5px;
+    padding: 10px;
   }
 
   .image-link {
@@ -334,19 +343,13 @@ span {
     height: auto;
     margin-bottom: 20px;
   }
-
-  .hover-effect h3,
-  .hover-effect p {
-    display: block;
-    font-size: 14px;
-  }
 }
+
 
 /* About section */
 #about {
   padding: 10px;
   background-color: var(--light);
-  text-align: center;
 }
 
 #about span {
@@ -395,25 +398,12 @@ span {
   text-align: center;
 }
 
-.about-info h2 {
-  font-size: 18px;
-  margin-bottom: -15px;
-}
-
-.about-info p {
-  font-size: 14px;
-}
 
 .about-blurb {
-  text-align: center;
   width: 768px;
   margin: auto;
 }
 
-.about-blurb h2 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
 
 .about-blurb p {
   font-size: 16px;
