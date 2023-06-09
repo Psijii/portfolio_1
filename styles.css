@@ -1,8 +1,8 @@
+/* Global styles */
 body, ul {
   margin: 0;
   padding: 0;
   background-color: var(--bluegreen);
-  font-family: "Figtree", Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -22,6 +22,7 @@ body {
   --dark: #260b0b;
 }
 
+/* Fonts */
 @font-face {
   font-family: "calendas_plusregular";
   src: url("calendas_plus-webfont.eot");
@@ -32,36 +33,49 @@ body {
     url("calendas_plus-webfont.svg#calendas_plusregular") format("svg");
 }
 
+/* Headings */
 h1, h2, h3, h4 {
   font-family: "calendas_plusregular";
 }
 
+/* Paragraphs */
 p {
   font-family: "Figtree";
 }
 
+/* Links */
+a {
+  color: var(--light);
+  text-decoration: none;
+  font-family: "Figtree";
+}
+
+a:hover {
+  color: whitesmoke;
+  transition: 0.3s ease-in-out;
+}
+
+/* Icons */
 i {
   font-size: x-large;
   color: var(--dark);
 }
 
-a {
-  color: var(--light);
-}
-
 i:hover {
   color: var(--bluegreen);
-  transition: 0.3s ease-in-out;
 }
 
+/* Hidden spam */
 span.blockspam {
   display: none;
 }
 
+/* Images */
 img {
   border-radius: 15px;
 }
 
+/* Spans */
 span {
   font-family: "calendas_plus";
   padding: 4px;
@@ -70,7 +84,6 @@ span {
 }
 
 /* Intro section */
-
 #intro {
   background-color: var(--lightturq);
   min-height: calc(50vh);
@@ -99,8 +112,7 @@ span {
   color: var(--light);
 }
 
-/* Nav bar */
-
+/* Navigation bar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -409,6 +421,8 @@ span {
   }
 }
 
+/* Footer */
+
 footer {
   background-color: var(--lightturq);
   padding: 20px;
@@ -429,6 +443,10 @@ footer li {
 
 footer i {
   color: var(--light);
+}
+
+footer i:hover {
+  color: whitesmoke;
 }
 
 footer a {
