@@ -56,6 +56,7 @@ a:hover {
 i {
   font-size: x-large;
   color: var(--dark);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
 }
 
 i:hover {
@@ -307,6 +308,21 @@ span {
   font-weight: bold;
 }
 
+.hover-effect a {
+  color: var(--light);
+  background-color: var(--bluegreen);
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 2px;
+}
+
+.hover-effect a:hover {
+  color: var(--bluegreen);
+  background-color: var(--light);
+  padding: 5px;
+  border-radius: 5px;
+}
+
 .image-link:hover .hover-effect {
   opacity: 1;
 }
@@ -321,7 +337,7 @@ span {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    box-sizing: border-box; /* Add this property */
+    box-sizing: border-box; 
   }
 
   .hover-effect h3,
@@ -344,7 +360,6 @@ span {
     margin-bottom: 20px;
   }
 }
-
 
 /* About section */
 #about {
